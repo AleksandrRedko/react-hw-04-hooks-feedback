@@ -1,0 +1,17 @@
+.List {
+  display: flex;
+}
+.List > li:not(:last-child) {
+  margin-right: 15px;
+}
+.Button {
+  min-width: 80px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.Button:hover {
+  background-color: rgb(137, 161, 230);
+  border-color: rgb(137, 161, 230);
+  color: #fff;
+}
